@@ -22,7 +22,7 @@ $maintenance = "jamfPolicyTrigger" #This is used in the "FirstAid" function to t
 # Example: /usr/local/bin/jamf policy -event $maintenance
 #
 # The Network Function is based on using a Cisco Anyconnect VPN and Palo Alto Firewall.
-paloIP="XX.XX.XX.XX" # IP address for user authentification to Palo Alto firewall.
+paloIP="XX.XX.XX.XX"    # IP address for user authentification to Palo Alto firewall.
 host1="my.domain.com"   # host1 should be an intranet only site to test internal network access.
 host2="www.cnn.com"     # host2 should be an external site that is NOT allowed through your firewall without User auth with Inet access.
 host3="www.google.com"  # host3 should be an external site that is allowed through your firewall without restrictions.
